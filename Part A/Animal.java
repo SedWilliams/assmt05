@@ -34,7 +34,6 @@ public class Animal {
     * Constructor for Animal class (no arguments)
     ********************************************************************/
     Animal() {
-        this.breed = "Unknown";
         this.isWild = false;
         this.familyStructure = "Unknown";
     }

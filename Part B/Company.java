@@ -13,9 +13,6 @@ import hu.webarticum.treeprinter.printer.traditional.*;
 import hu.webarticum.treeprinter.decorator.BorderTreeNodeDecorator;
 import hu.webarticum.treeprinter.text.AnsiFormat;
 import hu.webarticum.treeprinter.text.ConsoleText;
-// Student.java
-
-//draw diagrams on paper
 
 public class Company {
 

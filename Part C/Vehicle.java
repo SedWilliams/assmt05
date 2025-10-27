@@ -6,7 +6,7 @@
  * Description: Provides the base class for all vehicles.
  ********************************************************************/
 
-public class Vehicle {
+public class Vehicle implements IsDriveable {
 
     /********************************************************************
     * Instance variables
@@ -39,6 +39,28 @@ public class Vehicle {
     *********************************************************************/
     Vehicle() {
 
+    }
+
+    /********************************************************************
+    * IsDriveable Interface Implementations
+    ********************************************************************/
+    public void forward() {
+        System.out.println("The vehicle is moving forward.");
+    }
+    public void backwards() {
+        System.out.println("The vehicle is moving backwards.");
+    }
+    public void brake() {
+        System.out.println("The vehicle is braking.");
+    }
+    public void turnLeft() {
+        System.out.println("The vehicle is turning left.");
+    }
+    public void turnRight() {
+        System.out.println("The vehicle is turning right.");
+    }
+    public void accelerate() {
+        System.out.println("The vehicle is accelerating.");
     }
 
     /********************************************************************
