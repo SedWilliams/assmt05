@@ -21,18 +21,16 @@ public class Dog extends Animal implements Playable {
     /********************************************************************
     * Instance variables
     ********************************************************************/
-    private final String breed;
-    private final Boolean isWild;
-    private final String familyStructure;
+    private String breed;
+    private Boolean isWild;
+    private String familyStructure;
 
     /********************************************************************
     * Constructor(s)
     ********************************************************************/
     Dog(final String breed, final Boolean isWild, final String familyStructure) {
-        super();
+        super(isWild, familyStructure);
         this.breed = breed;
-        this.isWild = isWild;
-        this.familyStructure = familyStructure;
     }
 
     /********************************************************************

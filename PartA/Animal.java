@@ -12,7 +12,6 @@
 * Description: This is the base class for all animals.
 ****************************************************************************************/
 public class Animal {
-    private final String breed;
     private final Boolean isWild;
     private final String familyStructure;
 
@@ -22,12 +21,10 @@ public class Animal {
 
     /*********************************************************************
     * Constructor for Animal class (with arguments)
-    * @param breed - The breed of the animal
     * @param isWild - Whether the animal is wild
     * @param familyStructure - The family structure of the animal
     ********************************************************************/
-    Animal(final String breed, final Boolean isWild, final String familyStructure) {
-        this.breed = breed;
+    Animal(final Boolean isWild, final String familyStructure) {
         this.isWild = isWild;
         this.familyStructure = familyStructure;
     }
