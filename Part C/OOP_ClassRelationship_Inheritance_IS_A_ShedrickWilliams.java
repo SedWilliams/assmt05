@@ -1,5 +1,12 @@
-
-// OOP_ClassRelationship_Inheritance_IS_A_ShedrickAnsong.java
+/********************************************************************
+ * File: OOP_ClassRelationship_Inheritance_IS_A_ShedrickWilliams.java
+ * @author: Shedrick Williams
+ * @since: 10/26/25
+ * 
+ * Description: Program showcases the class design principle of inheritance.
+ * The Person class is the base class, the Student class is a subclass of Person,
+ * and the ComputerScienceStudent class is a subclass of Student.
+ ********************************************************************/
 
 public class OOP_ClassRelationship_Inheritance_IS_A_ShedrickWilliams {
 

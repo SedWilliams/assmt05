@@ -1,3 +1,11 @@
+/********************************************************************
+ * File: Company.java
+ * @author: Shedrick Williams
+ * @since: 10/26/25
+ * 
+ * Description: Represents a company.
+ ********************************************************************/
+
 import java.util.ArrayList;
 
 import hu.webarticum.treeprinter.*;
